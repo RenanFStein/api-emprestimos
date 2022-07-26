@@ -8,17 +8,17 @@
 
 # Configuração do Settings.py
 * INSTALLED_APPS 
-image.png
+
 
 * Local Zone
-image.png
+
 
 * Arquivos Static
-image.png
+
 
 * Configuração para Deploy
-image.png
+
 
 # Configuração do wsgi.py
-image.png
+
 
