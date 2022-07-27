@@ -26,12 +26,7 @@ SECRET_KEY = 'django-insecure-*wh^apatm9@o1%qi2_t7=j4^u!h61rb4)-*3#$chnu6*@dl6a^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'api-emprestimos.herokuapp.com']
-
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-]
+ALLOWED_HOSTS = ['127.0.0.1', 'api-emprestimos.herokuapp.com', 'http://localhost:5173', 'http://127.0.0.1:5173']
 
 
 # Application definition
