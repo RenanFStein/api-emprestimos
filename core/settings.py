@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'api-emprestimos.herokuapp.com']
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://micro-erp-v1.vercel.app",
+    "https://front-end-api-emprestimo.vercel.app/"
 ]
 
 
@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     ## Meus App ##
-    'agrofacil',
+    'emprestimos',
 
     ## Apps de Terceiros ##
     'rest_framework',
@@ -126,16 +126,6 @@ TIME_ZONE = 'America/Sao_Paulo'
 USE_I18N = True
 
 USE_TZ = True
-
-USE_L10N = True
-
-# Conversor Float em em Real . Ex: 10.000,00
-
-THOUSAND_SEPARATOR='.',
-USE_THOUSAND_SEPARATOR=True
-
-
-DATE_INPUT_FORMATS = ['%d/%m/%Y T ']
 
 
 # Static files (CSS, JavaScript, Images)

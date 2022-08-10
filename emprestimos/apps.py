@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AgrofacilConfig(AppConfig):
+class EmprestimosConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'agrofacil'
+    name = 'emprestimos'
