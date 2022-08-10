@@ -7,11 +7,10 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="API Emprestimos",
+      title="API Agrofacil",
       default_version='v1',
-      description="API Emprestimos - Teste",
-      contact=openapi.Contact(email="contact@snippets.local"),
-      license=openapi.License(name="BSD License"),
+      description="API Agrofacil - Teste",
+
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
@@ -20,7 +19,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path('' , include('emprestimos.urls')),
+    path('' , include('agrofacil.urls')),
  
   
 ]
